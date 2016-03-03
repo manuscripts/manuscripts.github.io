@@ -1,2 +1,2 @@
-# manuscripts.github.io
-Manuscripts Site
+
+Manuscripts Site - [`manuscripts.github.io`](http://manuscripts.github.io)
