@@ -1,0 +1,185 @@
+########################
+#  Table of Contents
+
+- title: Setup / Quickstart
+  path:  setup/README.md
+  sections:
+  - title: "Display & connectivity cable"
+    path:  setup/monitor-connection.md
+
+- title: Installation
+  path:  installation/README.md
+  sections:
+  - title: NOOBS
+    path:  installation/noobs.md
+  - title: Installing Images
+    path:  installation/installing-images/README.md
+    sections:
+    - title: Linux
+      path:  installation/installing-images/linux.md
+    - title: Mac OS
+      path:  installation/installing-images/mac.md
+    - title: Windows
+      path:  installation/installing-images/windows.md
+  - title: SD Cards
+    path:  installation/sd-cards.md
+
+- title: Usage Guide
+  path:  usage/README.md
+  sections:
+  - title: Scratch
+    path:  usage/scratch/README.md
+  - title: Python
+    path:  usage/python/README.md
+    sections:
+    - title: More on Python
+      path:  usage/python/more.md
+  - title: Sonic Pi
+    path:  usage/sonic-pi/README.md
+  - title: Terminal
+    path:  usage/terminal/README.md
+  - title: "GPIO: Raspberry Pi Models A and B"
+    path:  usage/gpio/README.md
+  - title: "GPIO: Models A+, B+ and Raspberry Pi 2"
+    path:  usage/gpio-plus-and-raspi2/README.md
+  - title: Minecraft
+    path:  usage/minecraft/README.md
+  - title: Python Games
+    path:  usage/python-games/README.md
+  - title: WordPress
+    path:  usage/wordpress/README.md
+  - title: Mathematica
+    path:  usage/mathematica/README.md
+  - title: Camera Module
+    path:  usage/camera/README.md
+    sections:
+    - title: Shell
+      path:  usage/camera/raspicam/README.md
+      sections:
+      - title: raspistill
+        path:  usage/camera/raspicam/raspistill.md
+      - title: raspivid
+        path:  usage/camera/raspicam/raspivid.md
+      - title: Time-lapse
+        path:  usage/camera/raspicam/timelapse.md
+      - title: raspiyuv
+        path:  usage/camera/raspicam/raspiyuv.md
+    - title: Python
+      path:  usage/camera/python/README.md
+  - title: Webcams
+    path:  usage/webcams/README.md
+  - title: XBMC
+    path:  usage/xbmc/README.md
+  - title: Playing audio
+    path:  usage/audio/README.md
+  - title: Playing video
+    path:  usage/video/README.md
+  - title: Demo programs
+    path:  usage/demos/README.md
+    sections:
+    - title: Hello world
+      path:  usage/demos/hello-world.md
+    - title: Hello video
+      path:  usage/demos/hello-video.md
+    - title: Hello triangle
+      path:  usage/demos/hello-triangle.md
+    - title: Hello fractal
+      path:  usage/demos/hello-fractal.md
+    - title: Hello teapot
+      path:  usage/demos/hello-teapot.md
+    - title: Hello audio
+      path:  usage/demos/hello-audio.md
+
+- title: Configuration
+  path:  configuration/README.md
+  sections:
+  - title: raspi-config     ## The Raspberry Pi configuration tool in Raspbian 
+    path:  configuration/raspi-config.md
+  - title: config.txt       ## The Raspberry Pi configuration file
+    path:  configuration/config-txt.md
+  - title: Wireless
+    path:  configuration/wireless/README.md
+    sections:
+    - title: Using the command line
+      path:  configuration/wireless/wireless-cli.md
+  - title: Audio Config
+    path:  configuration/audio-config.md
+  - title: Camera Config
+    path:  configuration/camera.md
+  - title: Localisation
+    path:  configuration/localisation.md
+  - title: Default pin configuration
+    path:  configuration/pin-configuration.md
+  - title: Device Trees Config
+    path:  configuration/device-tree.md
+    
+- title: Remote Access
+  path:  remote-access/README.md
+
+## add subscections here
+
+- title: Linux
+  path:  linux/README.md
+  sections:
+  - title: Filesystem
+    path:  linux/filesystem/README.md
+    sections:
+    - title: Home
+      path:  linux/filesystem/home.md
+    - title: Whole Filesystem
+      path:  linux/filesystem/whole-filesystem.md
+    - title: Backup
+      path:  linux/filesystem/backup.md
+  - title: Usage
+    path:  linux/usage/README.md
+    sections:
+    - title: Commands
+      path:  linux/usage/commands.md
+    - title: Text editors
+      path:  linux/usage/text-editors.md
+    - title: Users
+      path:  linux/usage/users.md
+    - title: Root
+      path:  linux/usage/root.md
+    - title: Scripting
+      path:  linux/usage/scripting.md
+    - title: "Cron / Crontab"
+      path:  linux/usage/cron.md
+    - title: ".bashrc and .bash_aliases"
+      path:  linux/usage/bashrc.md
+    - title: "rc.local"
+      path:  linux/usage/rc-local.md
+  - title: Software
+    path:  linux/software/README.md
+    sections:
+    - title: APT
+      path:  linux/software/apt.md
+    - title: Pi Store
+      path:  linux/software/pi-store.md
+    - title: Python
+      path:  linux/software/python.md
+    - title: Ruby
+      path:  linux/software/ruby.md
+  - title: Kernel
+    path:  linux/kernel/README.md
+    sections:
+    - title: Updating
+      path:  linux/kernel/updating.md
+    - title: Building
+      path:  linux/kernel/building.md
+    - title: Configuring
+      path:  linux/kernel/configuring.md
+    - title: Patching
+      path:  linux/kernel/patching.md
+    - title: Headers
+      path:  linux/kernel/headers.md
+
+- title: Raspbian
+  path:  raspbian/README.md
+
+## add subscections here
+
+- title: Hardware
+  path:  hardware/README.md
+
+## add subscections here

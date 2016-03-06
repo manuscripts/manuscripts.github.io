@@ -1,0 +1,128 @@
+---
+layout: default
+title:  Raspberry Pi Documentation (Book Edition)
+---
+
+{% assign book           = site.data.raspberrypi.book %}
+<!-- todo: check - can we use book.contents - why? why not? -->
+{% assign book_contents  = site.data.raspberrypi.contents %}
+
+
+<!-- cover -->
+
+<h1>{{ book.title }}</h1>
+<h3>by {{ book.author.name }}</h3>
+
+<!-- table of contents -->
+
+<div class='toc'>
+
+Contents
+
+<ul>
+{% for part in book_contents %}
+  <li>{{ part.title }}
+   <ul>
+     {% for chapter in part.sections %}
+       <li>{{ chapter.title }}
+       {% if chapter.sections %}
+       <ul>
+         {% for sec in chapter.sections %}
+         <li>{{ sec.title }}
+         {% endfor %}
+       </ul>
+       {% endif %}
+       </li>
+     {% endfor %}
+   </ul>
+  </li>
+{% endfor %}
+</ul>
+</div>
+
+
+<h2>Preface</h1>
+
+<p>
+<b>Note:</b> The book edition is still an early release and a work-in-progess.
+</p>
+
+<p>
+This is the <a href="https://github.com/raspberrypi/documentation">official documentation</a>
+for the Raspberry Pi reformatted
+into a single page black-n-white book using the Manuscripts book format.
+</p>
+
+<p>
+See the <a href="https://github.com/manuscripts/manuscripts.github.io">source repo</a> for how
+the book gets auto-built with a static site builder and hosted on GitHub Pages.
+</p>
+
+<p>
+Questions? Comments?
+Send them along to the
+<a href="http://groups.google.com/group/wwwmake">wwwmake mailing list/forum</a>
+Thanks.
+</p>
+
+<p>
+Onwards.
+</p>
+
+
+<h2>Acknowledgments</h2>
+
+<p>
+Thanks to the Raspberry Pi Foundation and community contributions
+for making it all possible.
+</p>
+
+
+<!-- chapters -->
+
+{% for part in book_contents %}
+  {% assign part_index = forloop.index %} 
+  <h1 class="part">Part {{ part_index }} - {{ part.title }}</h1>
+
+  <!-- try adding content using include_relative -->
+  {% capture txt %}{% include_relative _raspberrypi/{{part.path}} %}{% endcapture %}
+  {{ txt | markdownify }}
+
+  
+  {% for chapter in part.sections %}
+    {% assign chapter_index = forloop.index %} 
+<div class="chapter">
+  <h1>Chapter {{ part_index }}.{{ chapter_index }} - {{ chapter.title }}</h1>
+
+  <!-- try adding content using include_relative -->
+  {% capture txt %}{% include_relative _raspberrypi/{{chapter.path}} %}{% endcapture %}
+  {{ txt | markdownify }}
+
+  {% if chapter.sections %}
+    {% for sec in chapter.sections %}
+      {% assign sec_index = forloop.index %} 
+    
+      <h1>Section {{ part_index }}.{{ chapter_index }}.{{ sec_index }} - {{ sec.title }}</h1>
+
+      <!-- try adding content using include_relative -->
+      {% capture txt %}{% include_relative _raspberrypi/{{sec.path}} %}{% endcapture %}
+      {{ txt | markdownify }}
+
+      {% if sec.sections %}
+        {% for subsec in sec.sections %}
+        {% assign subsec_index = forloop.index %} 
+
+        <h1>Subsection {{ part_index }}.{{ chapter_index }}.{{ sec_index }}.{{ subsec_index }} - {{ subsec.title }}</h1>
+
+        <!-- try adding content using include_relative -->
+        {% capture txt %}{% include_relative _raspberrypi/{{subsec.path}} %}{% endcapture %}
+        {{ txt | markdownify }}
+        {% endfor %}
+      {% endif %}
+    
+    {% endfor %}
+  {% endif %}
+</div>
+  {% endfor %}
+
+{% endfor %}
