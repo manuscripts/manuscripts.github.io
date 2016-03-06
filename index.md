@@ -1,8 +1,10 @@
 ---
-title: Welcome
+layout: default
+title:  Welcome
 ---
 
 Manuscripts - A Free Book Format - Write Books in Plain Text 
+
 
 Book Examples:
 
@@ -13,3 +15,9 @@ More Book Examples:
 
 - [**Hyde Press Bookshelf**](http://hydepress.github.io)
    
+
+
+Markdown Tools:
+
+- [**Markdown Lint Rules / Style Checker**](http://manuscripts.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/manuscript/markdown-lint)
+
