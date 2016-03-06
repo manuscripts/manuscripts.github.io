@@ -19,5 +19,5 @@ More Book Examples:
 
 Markdown Tools:
 
-- [**Markdown Lint Rules / Style Checker**](http://manuscripts.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/manuscript/markdown-lint)
+- [**Markdown Lint Rules / Style Checker**](http://manuscripts.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/manuscripts/markdown-lint)
 
