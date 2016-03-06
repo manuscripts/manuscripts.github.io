@@ -4,3 +4,6 @@
 [submodule "_markdown-lint"]
 	path = _markdown-lint
 	url = https://github.com/manuscripts/markdown-lint
+[submodule "_dr-jekyll-and-mr-hyde"]
+	path = _dr-jekyll-and-mr-hyde
+	url = https://github.com/manuscripts/dr-jekyll-and-mr-hyde
