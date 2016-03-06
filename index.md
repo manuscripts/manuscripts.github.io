@@ -5,10 +5,10 @@ title:  Welcome
 
 Manuscripts - A Free Book Format - Write Books in Plain Text 
 
-## Part I - The Text
+## Step 1 - The Text
 
 
-1) `01.txt`
+`01.txt`:
 
 ```
 # Story of the Door
@@ -25,9 +25,9 @@ more often and loudly in the acts of his life...
 
 ...
 
-## Part II - Book Info and Table of Contents
+## Step 2 - Book Info and Table of Contents
 
-2)  `book.txt`:
+`book.txt`:
 
 ```
 title:  Strange Case of Dr. Jekyll and Mr. Hyde
@@ -36,7 +36,7 @@ author:
   name: Robert Louis Stevenson
 ```
 
-3) `contents.txt`:
+`contents.txt`:
 
 ```
 - title: Story of the Door
