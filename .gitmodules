@@ -1,3 +1,6 @@
 [submodule "_raspberrypi"]
 	path = _raspberrypi
 	url = https://github.com/manuscripts/raspberrypi
+[submodule "_markdown-lint"]
+	path = _markdown-lint
+	url = https://github.com/manuscripts/markdown-lint
