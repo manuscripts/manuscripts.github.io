@@ -29,6 +29,14 @@ Contents
        <ul>
          {% for sec in chapter.sections %}
          <li>{{ sec.title }}
+         {% if sec.sections %}
+           <ul>
+             {% for subsec in sec.sections %}
+             <li>{{ subsec.title }}</li>
+             {% endfor %}
+           </ul>
+         {% endif %}  
+         </li>
          {% endfor %}
        </ul>
        {% endif %}

@@ -55,7 +55,7 @@ That's it.
 
 
 - [**Strange Case of Dr. Jekyll and Mr. Hyde**](http://manuscripts.github.io/dr-jekyll-and-mr-hyde) by Robert Louis Stevenson - [Text in Manuscripts](https://github.com/manuscripts/dr-jekyll-and-mr-hyde)
-- [**Raspberry Pi Documentation**](http://manuscripts.github.io/raspberrypi) by the Raspberry Pi Foundation with community contributions - [Text in Manuscripts](https://github.com/manuscripts/raspberrypi)
+- [**Raspberry Pi Documentation**](http://manuscripts.github.io/raspberrypi) [(Table of Contents)](http://manuscripts.github.io/raspberrypi.contents) by the Raspberry Pi Foundation with community contributions - [Text in Manuscripts](https://github.com/manuscripts/raspberrypi)
 
 More
 
