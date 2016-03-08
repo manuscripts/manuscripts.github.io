@@ -22,12 +22,21 @@ title:  Markdown Lint Tool Documentation
 
 Contents
 
+<!-- todo: auto-add refs from ids  (if refs missing/not present)
+  -->
+
 <ul>
 {% for part in book_contents %}
   <li>{{ part.title }}
    <ul>
      {% for chapter in part.sections %}
-       <li>{{ chapter.title }}</li>
+       <li>
+        {% if chapter.ref %}
+          <a href="#{{ chapter.ref }}">{{ chapter.title }}</a>
+        {% else %}
+          {{ chapter.title }}
+        {% endif %}
+       </li>
      {% endfor %}
    </ul>
   </li>
@@ -76,31 +85,16 @@ Thanks to Mark Harrison and contributors for making it all possible.
 <!-- chapters -->
 
 {% for part in book_contents %}
-  <h1 class="part">Part {{ forloop.index }} - {{ part.title }}</h1>
+  <h1 class="part">{{ part.id }} {{ part.title }}</h1>
   
-  {% assign part_index = forloop.index %} 
   {% for chapter in part.sections %}
 <div class="chapter">
-  <h1>Chapter {{ part_index }}.{{ forloop.index }} - {{ chapter.title }}</h1>
-            
-  <!-- add mini table of contents for chapter if available -->      
-  {% if chapter.sections %}
-  Contents
-  <ul>
-    {% for sec in chapter.sections %}
-    <li>{{ sec.title }}
-      {% if sec.sections %}
-        <ul>
-         {% for subsec in sec.sections %}
-           <li>{{ subsec.title }}</li>
-         {% endfor %}
-        </ul>
-      {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
+  <!-- fix/todo: use h1#id instead of ancher -->
+  {% if chapter.ref %}
+    <a name="{{ chapter.ref }}"></a>
   {% endif %}
-
+  <h1>{{ chapter.id }} {{ chapter.title }}</h1>
+            
   <!-- try adding content using include_relative -->
   {% capture txt %}{% include_relative _markdown-lint/{{chapter.path}} %}{% endcapture %}
 
@@ -108,6 +102,11 @@ Thanks to Mark Harrison and contributors for making it all possible.
      possible alternative??:
        try to use collection and use a content lookup with title or path - why? whynot??
     -->
+  
+  <!-- fix/todo:
+        how to get parsed front matter as hash - use yamlify if exit or something??
+     -->
+  
   {% assign txt_head = txt | truncate: 10 %}
   <!-- note: allow files without front matter -->
   {% if txt_head contains '---' %}
