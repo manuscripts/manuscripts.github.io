@@ -69,3 +69,8 @@ More
 
 - [**Markdown Lint Rules / Style Checker**](http://manuscripts.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/manuscripts/markdown-lint)
 
+---
+
+### Quick Starter Kits
+
+- [**Book Quick Starter Kit**](https://github.com/manuscripts/book-starter) (Manuscripts Edition)
