@@ -3,7 +3,9 @@ layout: default
 title:  Welcome
 ---
 
-Manuscripts - A Free Book Format - Write Books in Plain Text 
+Follow along on Twitter [@manuscriptsnews](https://twitter.com/manuscriptsnews) for the latest updates.
+
+# Manuscripts - A Free Book Format - Write Books in Plain Text 
 
 ## Step 1 - The Text
 
