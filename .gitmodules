@@ -7,3 +7,6 @@
 [submodule "_dr-jekyll-and-mr-hyde"]
 	path = _dr-jekyll-and-mr-hyde
 	url = https://github.com/manuscripts/dr-jekyll-and-mr-hyde
+[submodule "markdown-tools"]
+	path = _data/markdown_tools
+	url = https://github.com/manuscripts/markdown-tools
