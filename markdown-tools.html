@@ -1,11 +1,35 @@
 ---
 layout: default
-title:  Welcome
+title:  Markdown Tools
 ---
+
+<style>
+  /* todo: move to style.css e.g. _gallery.scss */
+
+.container {  /* make container bigger - was 38rem; */
+  max-width: 52rem;
+}  
+  
+.gallery {
+}
+
+.gallery .tool {
+    display: inline-block;
+    vertical-align: top;
+    /* text-align: center;  */
+
+    width: 284px;   /* note: 250(10+10? left+right padding?)+24x add margin+border */
+    /* background-color: white; */
+    margin-bottom: 24px;  /* was: 15px; */
+    margin-right: 24px;   /* was: 15px; */
+    padding: 10px 15px;
+} 
+  
+</style>
 
 
 <h1>Markdown Tools</h1>
-<h2>Top Open Source Plain Text to HTML & LaTeX Converter Tools n Libraries</h2>
+<h2>Open Source Plain Text to HTML n LaTeX Converter Tools n Libraries</h2>
 
 
 <div class='gallery'>
@@ -15,25 +39,26 @@ title:  Welcome
 <div class='tool'>
    
    <div>
-   <b>{{ tool.title }}</b><br>
-   by {{ tool.author }}
+   <b style="font-size: 140%">{{ tool.title }}</b> <br>
+   by {{ tool.author }} <br>
+   {{ tool.stats.stars }} ★ 
    </div>
    
    <div>
-    <!-- stats -->
-      {{ tool.stats.stars }} ★
-   </div>
-
-   <div>
     <!-- info -->
-      Language:  {{ tool.language }}
-      Formats:   {{ tool.formats | join: ', ' }}
+     <table>
+        <tr><td>Language:</td><td>{{ tool.language }}</td></tr>
+        <tr><td>Formats:</td><td>{{ tool.formats | join: ', ' }}</td></tr>
+     </table>
    </div>
    
    <div>
     <!-- buttons / links -->
    {% if tool.github %}
      <a href="http://github.com/{{ tool.github }}">[Source]</a>
+   {% endif %}
+   {% if tool.package %}
+     <a href="{{ tool.package }}">[Package]</a>
    {% endif %}
    {% if tool.web %}
      <a href="{{ tool.web }}">[More Info]</a>
@@ -45,4 +70,31 @@ title:  Welcome
 
 </div><!-- gallery -->
 
+
+
+
+<div>
+
+<h2>How-To Add Your Tool</h2>
+
+<ul>
+<li>Fork the <a href="https://github.com/manuscripts/markdown-tools"><code>/markdown-tools</code></a>
+    repo on GitHub</li>
+<li>
+  Add a new entry in the <a href="https://github.com/manuscripts/markdown-tools/blob/master/tools.yml"><code>tools.yml</code></a>
+  file and fill out all fields. Example:
+<pre>
+- title:    pandoc
+  author:   John MacFarlane et al
+  formats:  [html,latex]
+  github:   jgm/pandoc
+  web:      http://pandoc.org
+  language: haskell</pre>
+</li>
+<li>
+    Thanks!
+</li>
+</ul>
+    
+</div>
 
