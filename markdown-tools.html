@@ -43,8 +43,14 @@ title:  Markdown Tools
    by {{ tool.author }} <br>
    {{ tool.stats.stars }} ★ 
    </div>
+
+   {% if tool.desc %}
+   <div style="font-size: 80%">
+     {{ tool.desc }}
+   </div>
+   {% endif %}
    
-   <div>
+   <div style="font-size: 80%">
     <!-- info -->
      <table>
         <tr><td>Language:</td><td>{{ tool.language }}</td></tr>
@@ -95,6 +101,11 @@ title:  Markdown Tools
     Thanks!
 </li>
 </ul>
-    
+
+
+<h2>Thanks</h2>
+
+<a href="https://github.com/aslakr">Aslak Raanes</a>    
+
 </div>
 
