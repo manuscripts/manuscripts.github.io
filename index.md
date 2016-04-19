@@ -68,7 +68,7 @@ More
 
 ### Markdown Tools
 
-
+- [**Markdown Tools**](http://manuscripts.github.io/markdown-tools) - List of Open Source Markdown Converter Libraries & Tools
 - [**Markdown Can I Use \_\_\_?**](http://manuscripts.github.io/markdown-can-i-use) - Tables, Footnotes, Inline Notes, Citations, Task Lists, etc.
 - [**Markdown Lint Rules / Style Checker**](http://manuscripts.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/manuscripts/markdown-lint)
 
