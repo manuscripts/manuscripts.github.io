@@ -16,6 +16,7 @@ exclude:
 - .gitignore
 - Gemfile
 - Gemfile.lock
+- _data/markdown_tools/README.md
 
 
 # safe: true

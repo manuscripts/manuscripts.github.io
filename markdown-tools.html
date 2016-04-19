@@ -1,0 +1,48 @@
+---
+layout: default
+title:  Welcome
+---
+
+
+<h1>Markdown Tools</h1>
+<h2>Top Open Source Plain Text to HTML & LaTeX Converter Tools n Libraries</h2>
+
+
+<div class='gallery'>
+    
+{% for tool in site.data.markdown_tools.tools %}
+
+<div class='tool'>
+   
+   <div>
+   <b>{{ tool.title }}</b><br>
+   by {{ tool.author }}
+   </div>
+   
+   <div>
+    <!-- stats -->
+      {{ tool.stats.stars }} ★
+   </div>
+
+   <div>
+    <!-- info -->
+      Language:  {{ tool.language }}
+      Formats:   {{ tool.formats | join: ', ' }}
+   </div>
+   
+   <div>
+    <!-- buttons / links -->
+   {% if tool.github %}
+     <a href="http://github.com/{{ tool.github }}">[Source]</a>
+   {% endif %}
+   {% if tool.web %}
+     <a href="{{ tool.web }}">[More Info]</a>
+   {% endif %}
+   </div>
+
+</div><!-- tool -->
+{% endfor %}    
+
+</div><!-- gallery -->
+
+
