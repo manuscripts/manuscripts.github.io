@@ -55,13 +55,15 @@ That's it.
 
 ### Book Examples
 
+World Classics
 
 - [**Strange Case of Dr. Jekyll and Mr. Hyde**](http://manuscripts.github.io/dr-jekyll-and-mr-hyde) by Robert Louis Stevenson - [Text in Manuscripts](https://github.com/manuscripts/dr-jekyll-and-mr-hyde)
-- [**Raspberry Pi Documentation**](http://manuscripts.github.io/raspberrypi) [(Table of Contents)](http://manuscripts.github.io/raspberrypi.contents) by the Raspberry Pi Foundation with community contributions - [Text in Manuscripts](https://github.com/manuscripts/raspberrypi)
 
 More
 
+- [**Yuki & Moto Press Bookshelf**](http://yukimoto.github.io)
 - [**Hyde Press Bookshelf**](http://hydepress.github.io)
+- [**Fun Press Bookshelf**](http://funpress.github.io)
 
 
 ---
