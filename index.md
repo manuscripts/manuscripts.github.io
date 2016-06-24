@@ -61,7 +61,7 @@ World Classics
 
 More
 
-- [**Yuki & Moto Press Bookshelf**](http://yukimoto.github.io)
+- [**Yuki & Moto Press Bookshelf**](http://yukimotopress.github.io)
 - [**Hyde Press Bookshelf**](http://hydepress.github.io)
 - [**Fun Press Bookshelf**](http://funpress.github.io)
 
