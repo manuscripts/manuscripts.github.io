@@ -5,7 +5,7 @@ title:  Welcome
 
 Follow along on Twitter [@manuscriptsnews](https://twitter.com/manuscriptsnews) for the latest updates.
 
-# Manuscripts - A Free Book Format - Write Books in Plain Text 
+# Manuscripts - A Free Book Format - Write Books in Plain Text
 
 ## Step 1 - The Text
 
@@ -62,13 +62,14 @@ That's it.
 More
 
 - [**Hyde Press Bookshelf**](http://hydepress.github.io)
-   
-   
+
+
 ---
 
 ### Markdown Tools
 
 - [**Markdown Tools**](http://manuscripts.github.io/markdown-tools) - List of Open Source Markdown Converter Libraries & Tools
+- [**Markdown Tools / Books**](http://manuscripts.github.io/markdown-tools-books) - List of Open Source Tools for Building / Compiling Books from Markdown Manuscripts
 - [**Markdown Can I Use \_\_\_?**](http://manuscripts.github.io/markdown-can-i-use) - Tables, Footnotes, Inline Notes, Citations, Task Lists, etc.
 - [**Markdown Lint Rules / Style Checker**](http://manuscripts.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/manuscripts/markdown-lint)
 
