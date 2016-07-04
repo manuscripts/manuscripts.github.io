@@ -57,7 +57,7 @@ That's it.
 
 World Classics
 
-- [**Strange Case of Dr. Jekyll and Mr. Hyde**](http://manuscripts.github.io/dr-jekyll-and-mr-hyde) by Robert Louis Stevenson - [Text in Manuscripts](https://github.com/manuscripts/dr-jekyll-and-mr-hyde)
+- [**Strange Case of Dr. Jekyll and Mr. Hyde**](http://worldclassics.github.io/dr-jekyll-and-mr-hyde) by Robert Louis Stevenson - [Text in Manuscripts](https://github.com/worldclassics/dr-jekyll-and-mr-hyde)
 
 More
 
@@ -73,7 +73,13 @@ More
 - [**Markdown Tools**](http://manuscripts.github.io/markdown-tools) - List of Open Source Markdown Converter Libraries & Tools
 - [**Markdown Tools › Books**](http://manuscripts.github.io/markdown-tools-books) - List of Open Source Tools for Building / Compiling Books from Markdown Manuscripts
 - [**Markdown Can I Use \_\_\_?**](http://manuscripts.github.io/markdown-can-i-use) - Tables, Footnotes, Inline Notes, Citations, Task Lists, etc.
-- [**Markdown Lint Rules / Style Checker**](http://manuscripts.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/manuscripts/markdown-lint)
+
+<!-- end of list marker -->
+
+Up & Down Press
+
+- [**Markdown Lint Rules / Style Checker**](http://updownpress.github.io/markdown-lint) by Mark Harrison   - [Text in Manuscripts](https://github.com/updownpress/markdown-lint)
+
 
 ---
 
