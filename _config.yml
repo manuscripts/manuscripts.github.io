@@ -16,9 +16,6 @@ exclude:
 - .gitignore
 - Gemfile
 - Gemfile.lock
-- _data/markdown_tools/README.md
-- _data/markdown_tools_books/README.md
-
 
 # safe: true
 # lsi: false
