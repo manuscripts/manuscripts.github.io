@@ -1,6 +1,0 @@
-[submodule "markdown-tools"]
-	path = _data/markdown_tools
-	url = https://github.com/manuscripts/markdown-tools
-[submodule "markdown-tools-books"]
-	path = _data/markdown_tools_books
-	url = https://github.com/manuscripts/markdown-tools-books
