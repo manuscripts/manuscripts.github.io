@@ -61,6 +61,7 @@ World Classics
 
 More
 
+- [**Bits & Blocks Press Bookshelf**](http://bitsblocks.github.io)
 - [**Yuki & Moto Press Bookshelf**](http://yukimotopress.github.io)
 - [**Hyde Press Bookshelf**](http://hydepress.github.io)
 - [**Fun Press Bookshelf**](http://funpress.github.io)
